@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(earth.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.logo{
+    width: 30%;
+    background: url(pencil.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 600px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.form { 
+    width: 500px;
+    height:400px;
+    background: white;
+    position: absolute;
+   margin-top: 100px;
+    left: 700px;
+    border-radius: 20px;
+    padding-left: 30px;
+    
+
+}
+
+.form input{
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left:15px;
+}
+
+
+.btnn{
+    width: 270px;
+    height: 300px;
+    background: blue;
+    border: none;
+    font-size: 200px;
+     border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-top: 2px;
+    
+}
+
+.btnn a{
+    color: white;
+}
+.form h3{
+    margin-left:100px;
+    margin-top: -3px;
+    font-size: 30px;
+}
+
+.form h3{
+    margin-left: 200px;
+}
+
+.link{
+    background-color: blue;
+    width: 300px;
+    height: 40px;
+    border-radius:20px;
+    margin-left: 70px;
+}
+
+.link a{
+    color:white;
+    height:800px;
+    width: 200px;
+}
+
+.link:hover{
+    background-color: red;
+    color: white;
+}
+
+.form img{
+    height: 45px;
+    width: 55px;
+}
